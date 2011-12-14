@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Marc de Verdelhan (http://www.verdelhan.eu/)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Millimeters</string>
+    
+    <!-- Onglets -->
+    <string name="tag_onglet1">tagMesure</string>
+    <string name="label_onglet1">Measurement</string>
+    <string name="tag_onglet2">tagAide</string>
+    <string name="label_onglet2">Help</string>
+    
+    <!-- Menus -->
+    <string name="menu_parametres">Settings</string>
+    <string name="menu_quitter">Exit</string>
+    
+    <!-- Libellés Bouton Start/Stop -->
+    <string name="label_start">Start</string>
+    <string name="label_stop">Stop</string>
+    
+    <!-- Texte Aide -->
+    <string name="label_manipulation">Usage</string>
+    <string name="texte_manipulation">1) Place the phone on a flat horizontal surface.\n2) Press the \"Start\" button to start the measurement.\n3) Move the phone <b>from the left to the right</b>.</string>
+    <string name="texte_manipulation_suite">4) When the phone is stopped, press the \"Stop\" button.\n5) The distance appears. \\o/</string>
+    <string name="texte_autres_applications">Try out our other apps!</string>
+
+    <!-- Texte Conseils -->
+    <string name="label_conseils">Advices</string>
+    <string name="texte_conseils">- Move the phone neither too fast nor too slow (Several trials may be necessary the 1st time).\n- The center of mass is the center of the device.\n- Watch on Youtube: <b><a href="http://m.youtube.com/watch?v=iYpiVTdElPY">demo 1</a></b> - <b><a href="http://m.youtube.com/watch?v=Vnc6JaXa_u4">demo 2</a></b>.</string>
+    
+    <!-- Texte Calcul -->
+    <string name="titre_calcul">Please wait</string>
+    <string name="texte_calcul">Calculation in progress...</string>
+    <string name="annuler_calcul">Cancel</string>
+    
+    <!-- Texte Unités -->
+    <string name="unite_ft">ft</string>
+    <string name="unite_in">in</string>
+    <string name="unite_m">m</string>
+    <string name="unite_cm">cm</string>
+    
+    <!-- Texte Erreurs -->    
+    <string name="titre_erreur">Error</string>
+    <string name="texte_erreur_trop_lent">The conditions were not ripe for a correct measurement.\n\nThe phone has not been moved or the movement was too slow.\nPlease refer to Help for more information.</string>
+    <string name="texte_erreur_trop_rapide">The conditions were not ripe for a correct measurement.\n\nThe movement was too fast.\nPlease refer to Help for more information.</string>
+    <string name="texte_erreur_market">Unable to access Android Market.</string>
+    
+    <!-- Texte Préférences -->
+    <string name="titre_pref_systeme">Use imperial units</string>
+    <string name="texte_pref_systeme">Use feet/inches instead of meters</string>
+    
+</resources>

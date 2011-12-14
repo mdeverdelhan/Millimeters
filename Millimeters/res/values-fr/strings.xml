@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Marc de Verdelhan (http://www.verdelhan.eu/)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    
+    <!-- Onglets -->
+    <string name="tag_onglet1">tagMesure</string>
+    <string name="label_onglet1">Mesure</string>
+    <string name="tag_onglet2">tagAide</string>
+    <string name="label_onglet2">Aide</string>
+    
+    <!-- Menus -->
+    <string name="menu_parametres">Paramètres</string>
+    <string name="menu_quitter">Quitter</string>
+    
+    <!-- Libellés Bouton Start/Stop -->
+    <string name="label_start">Démarrer</string>
+    <string name="label_stop">Arrêter</string>
+    
+    <!-- Texte Aide -->
+    <string name="label_manipulation">Utilisation</string>
+    <string name="texte_manipulation">1) Placer le téléphone sur une surface plane et horizontale.\n2) Appuyer sur le bouton \"Démarrer\" pour démarrer la mesure.\n3) Déplacer le téléphone <b>de la gauche vers la droite</b>.</string>
+    <string name="texte_manipulation_suite">4) Une fois le téléphone à l\'arrêt, appuyer sur le bouton \"Arrêter\".\n5) La distance parcourue apparaît. \\o/</string>
+    <string name="texte_autres_applications">Découvrez nos autres applications !</string>
+    
+    <!-- Texte Conseils -->
+    <string name="label_conseils">Conseils</string>
+    <string name="texte_conseils">- Déplacer le téléphone ni trop vite, ni trop lentement (Plusieurs essais peuvent être nécessaires la 1ère fois).\n- Le centre de gravité est le centre de l\'appareil.\n- Voir sur Youtube : <b><a href="http://m.youtube.com/watch?v=iYpiVTdElPY">démo 1</a></b> - <b><a href="http://m.youtube.com/watch?v=Vnc6JaXa_u4">démo 2</a></b>.</string>
+    
+    <!-- Texte Calcul -->
+    <string name="titre_calcul">Veuillez patienter</string>
+    <string name="texte_calcul">Calcul en cours...</string>
+    <string name="annuler_calcul">Annuler</string>
+    
+    <!-- Texte Erreurs -->    
+    <string name="titre_erreur">Erreur</string>
+    <string name="texte_erreur_trop_lent">Conditions non réunies pour une mesure correcte.\n\nL\'appareil n\'a pas été déplacé ou le mouvement n\'était pas assez rapide.\nVeuillez consulter l\'aide pour plus d\'informations.</string>
+    <string name="texte_erreur_trop_rapide">Conditions non réunies pour une mesure correcte.\n\nLe mouvement était trop rapide.\nVeuillez consulter l\'aide pour plus d\'informations.</string>
+    <string name="texte_erreur_market">Impossible d\'accéder à l\'Android Market.</string>
+    
+    <!-- Texte Préférences -->
+    <string name="titre_pref_systeme">Unités anglo-saxonnes</string>
+    <string name="texte_pref_systeme">Utiliser des pieds/pouces au lieu des mètres</string>
+    
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Marc de Verdelhan (http://www.verdelhan.eu/)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#009edb">
+    
+    <!-- Boutons des onglets -->
+    <TabWidget android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#095c92">
+    </TabWidget>
+    
+    <!-- Début du contenu des onglets -->
+    <FrameLayout android:id="@android:id/tabcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="62px">
+        
+        <!-- Onglet n°1 -->
+        <LinearLayout android:id="@+id/tab1"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+                
+            <Button android:id="@+id/btnStartStop"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dip"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/action_read"/>
+            
+            <TextView android:id="@+id/labelStartStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/label_start"
+                android:textColor="@color/texte_normal"
+                android:textSize="28sp"/>
+            
+            <TextView android:id="@+id/valeurDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dip"
+                android:textColor="@color/texte_normal"
+                android:textSize="48sp"/>
+
+            <WebView
+                android:id="@+id/mesure_label"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"/>
+                
+        </LinearLayout>
+            
+        <!-- Onglet n°2 -->
+        <ScrollView android:id="@+id/scrollViewAide" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/tab2"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    
+                <!-- Usage/manipulation -->
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_manipulation"
+                    android:textColor="@color/texte_normal"
+                    android:textSize="20sp"/>
+                    
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texte_manipulation"
+                    android:textColor="@color/texte_normal"
+                    android:layout_marginLeft="10dip"/>
+                    
+                <ImageView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/aide_mouv"/>
+                    
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texte_manipulation_suite"
+                    android:textColor="@color/texte_normal"
+                    android:layout_marginLeft="10dip"/>
+                    
+                <!-- Conseils -->
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_conseils"
+                    android:textColor="@color/texte_normal"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dip"/>
+                    
+                <TextView android:id="@+id/texteConseils"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texte_conseils"
+                    android:textColor="@color/texte_normal"
+                    android:layout_marginLeft="10dip"
+                    android:linksClickable="true"/>
+                    
+                <Button android:id="@+id/buttonAutresApps"
+                    android:text="@string/texte_autres_applications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginBottom="10dip"/>
+                    
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <!-- Fin du contenu des onglets -->
+</TabHost>
