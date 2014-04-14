@@ -1,4 +1,4 @@
-# Millimeters (en)
+# Millimeters
 
 _Millimeters_ is an Android application which allows you to measure a distance using your cell phone. Need to know if the new kitchen table will pass the door ? Millimeters gives you the answer.
 
@@ -14,20 +14,16 @@ _Millimeters_ is an Android application which allows you to measure a distance u
 4.  When the phone is stopped, press the "Stop" button.
 5.  The distance appears. \o/
 
----
+## Screenshots
 
-# Millimeters (fr)
+![Millimeters home](Resources/home.png?raw=true)&nbsp;&nbsp;![Millimeters help](Resources/help.png?raw=true)
 
-_Millimeters_ est une application Android donnant la possibilité de mesurer une distance à l'aide du smartphone. Besoin de savoir si la nouvelle table de cuisine passera la porte d'entrée ? Millimeters vous donnera la réponse.
+## Demos
+* [Video demo 1](http://www.youtube.com/watch?v=Vnc6JaXa_u4)
+* [Video demo 2](http://www.youtube.com/watch?v=iYpiVTdElPY)
 
-### Fonctionnalités
-*   Mesure de distances de 0 à 10 mètres
-*   Langues : anglais, français
-*   Android 1.5 Cupcake ou supérieur
+## Available on Google Play
 
-### Utilisation
-1.  Placer le téléphone sur une surface plane et horizontale.
-2.  Appuyer sur le bouton "Démarrer" pour démarrer la mesure.
-3.  Déplacer le téléphone de la gauche vers la droite.
-4.  Une fois le téléphone à l'arrêt, appuyer sur le bouton "Arrêter".
-5.  La distance parcourue apparaît. \o/
+![Millimeters QR code](Resources/qr.png?raw=true)
+
+[Millimeters on Google Play](https://play.google.com/store/apps/details?id=com.droideilhan.millimeters)
