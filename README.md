@@ -2,6 +2,8 @@
 
 _Millimeters_ is an Android application which allows you to measure a distance using your cell phone. Need to know if the new kitchen table will pass the door ? Millimeters gives you the answer.
 
+_Warning: No more available on Google Play_
+
 ### Features
 *   Measuring distances 0-10 m
 *   Locales : english, french
@@ -21,9 +23,3 @@ _Millimeters_ is an Android application which allows you to measure a distance u
 ## Demos
 * [Video demo 1](http://www.youtube.com/watch?v=Vnc6JaXa_u4)
 * [Video demo 2](http://www.youtube.com/watch?v=iYpiVTdElPY)
-
-## Available on Google Play
-
-![Millimeters QR code](Resources/qr.png?raw=true)
-
-[Millimeters on Google Play](https://play.google.com/store/apps/details?id=com.droideilhan.millimeters)
